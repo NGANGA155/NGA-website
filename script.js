@@ -1,21 +1,35 @@
 const products = [
   {
-    name: "Tất cao cổ nam nữ trơn PEALO BASIC",
-    price: "1.000 ₫",
-    oldPrice: "40.000 ₫",
-    sale: "98%",
-    image: "https://down-vn.img.susercontent.com/file/vn-11134258-820l4-mfxq31jlyw3s72", // Thay ảnh thật ở đây
-    link: "https://s.shopee.vn/4q7F0oopxS" // Thay link Shopee thật
-  },
-  {
-    name: "Set 10 móc áo trẻ em Inochi",
+    name: "Tất lót lông cổ cao ấm áp giữ nhiệt",
     price: "1.000 ₫",
     oldPrice: "30.000 ₫",
-    sale: "97%",
-    image: "https://cf.shopee.vn/file/xyzabc", // Thay ảnh thật ở đây
-    link: "https://shopee.vn/product/456789/321654" // Thay link Shopee thật
+    sale: "98%",
+    image: "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lp0dnq8hcdi394.webp", // Thay ảnh thật ở đây
+    link: "https://s.shopee.vn/8V0XpdoU7R" // Thay link Shopee thật
   },
-  // Thêm các sản phẩm khác ở đây
+  {
+    name: "Lọ Đựng Gia Vị Thủy Tinh",
+    price: "1.000 ₫",
+    oldPrice: "17.711₫ ₫",
+    sale: "97%",
+    image: "https://down-vn.img.susercontent.com/file/vn-11134201-7r98o-m0273z390ood3c.webp", // Thay ảnh thật ở đây
+    link: "https://s.shopee.vn/1LXMwwNDow" // Thay link Shopee thật
+  },
+ {
+    name: "Thanh Chặn Khe Cửa",
+    price: "1.000 ₫",
+    oldPrice: "29.000 ₫",
+    sale: "98%",
+    image: "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lhkdvihjmvup0a@resize_w450_nl.webp", // Thay ảnh thật ở đây
+    link: "https://s.shopee.vn/11zMpAbR3" // Thay link Shopee thật
+  },
+{    name: "Tranh Tô Màu Nước MaGIC",
+    price: "1.000 ₫",
+    oldPrice: "29.000 ₫",
+    sale: "98%",
+    image: "https://down-vn.img.susercontent.com/file/vn-11134258-820l4-mfxq62t9foqw33", // Thay ảnh thật ở đây
+    link: "https://s.shopee.vn/9zpLcT39oA" // Thay link Shopee thật
+  },
 ];
 
 const container = document.getElementById("product-list");
@@ -52,3 +66,4 @@ setInterval(() => {
   const s = countdown % 60;
   timer.textContent = `${m}:${s.toString().padStart(2, '0')}`;
 }, 1000);
+
