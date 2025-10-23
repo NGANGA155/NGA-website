@@ -1,0 +1,78 @@
+/* Style cho trang web */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff3f3;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: #ff5722; /* Màu cam chủ đạo */
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+#search {
+  width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  color: #ff3b3b;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+
+.flash-sale {
+  background: #ff3b3b;
+  color: white;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
